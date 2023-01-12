@@ -9,9 +9,12 @@
     "express": "^4.18.1",
     "cors": "^2.8.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "express",
